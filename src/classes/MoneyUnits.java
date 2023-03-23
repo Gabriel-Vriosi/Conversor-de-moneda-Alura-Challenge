@@ -1,4 +1,4 @@
-package conversorAluraClasses;
+package classes;
 
 public class MoneyUnits extends Units {
 

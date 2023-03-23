@@ -1,4 +1,4 @@
-package conversorAluraClasses;
+package classes;
 
 public final class LenUnits extends Units{
 
