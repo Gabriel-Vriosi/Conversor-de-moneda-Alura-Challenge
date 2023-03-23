@@ -10,7 +10,6 @@ import java.util.regex.Pattern;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
-
 public final class MainFrame extends JFrame implements ActionListener, ItemListener{
 
 	private static final long serialVersionUID = 1L;
@@ -34,13 +33,11 @@ public final class MainFrame extends JFrame implements ActionListener, ItemListe
 	private ImageIcon iconImage = null;
 	private ImageIcon Img_1;
 	
-	
 	//Labels
 	private JLabel lblSymbol;
 	private JLabel lblImg_1;
 	private JLabel lbl_2;
 
-	
 	//Units arraysLists
 	private final ArrayList<String> moneyUnits = new ArrayList<String>(Arrays.asList("ARS","USD","EUR","JPY","GBP","KRW"));
 	private final ArrayList<String> tempUnits = new ArrayList<String>(Arrays.asList("Kelvin","Celsius","Fahrenheit"));
@@ -86,7 +83,6 @@ public final class MainFrame extends JFrame implements ActionListener, ItemListe
 		comboBoxUnidades = new JComboBox<Object>(tipos);
 		comboBoxUnidades.setSelectedIndex(-1);
 		comboBoxUnidades.setBounds(149, 55, 180, 20);
-		
 		
 		tf_Input = new JTextField();
 		tf_Input.setEnabled(false);
@@ -298,7 +294,6 @@ public final class MainFrame extends JFrame implements ActionListener, ItemListe
 			}
 		}
 	}
-	
 	
 	/*****************************************************************************************************
 	 * itemStateChanged

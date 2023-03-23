@@ -5,9 +5,6 @@ public final class LenUnits extends Units{
 	public LenUnits(String name, Double value, String symbol) {
 		super(name, value, symbol);
 	}
-	
-	
-	//"Centímetro","Metro","Kilómetro","Milla","Milla náutica", "Yarda","Pulgada","Pie"
 
 	/*****************************************************************************************************/
 	public void toMetro() {

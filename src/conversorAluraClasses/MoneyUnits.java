@@ -6,10 +6,6 @@ public class MoneyUnits extends Units {
 		super(name, value, symbol);
 	}
 	
-	//Last update: 08/03/23	last closing price
-	
-	
-	
 	public void toARS() {
 		
 		switch (this.getName()) {
